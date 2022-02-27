@@ -37,6 +37,7 @@ if(usuario === computador) { // Deu empate
         case 2: // Papel
             if(computador === 3) { // Tesoura
                 alert('seu oponente escolheu Tesoura')
+                console.log('entrou aqui');
                 resultado = possiveisResultados.derrota;
             } else { // Pedra
                 alert('seu oponente escolheu Pedra')
