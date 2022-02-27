@@ -27,22 +27,28 @@ if(usuario === computador) { // Deu empate
     switch(usuario) {
         case 1: // Pedra
         if(computador === 2) { // Tesoura
+            alert('seu oponente escolheu Papel')
             resultado = possiveisResultados.derrota;
         } else { // Pedra
+            alert('seu oponente escolheu Papel')
             resultado = possiveisResultados.vitoria;
         }
             break;
         case 2: // Papel
             if(computador === 3) { // Tesoura
+                alert('seu oponente escolheu Tesoura')
                 resultado = possiveisResultados.derrota;
             } else { // Pedra
+                alert('seu oponente escolheu Tesoura')
                 resultado = possiveisResultados.vitoria;
             }
             break;
         case 3: // Tesoura
             if(computador === 1) { // Pedra
+                alert('seu oponente escolheu Pedra')
                 resultado = possiveisResultados.derrota;
             } else { // Papel
+                alert('seu oponente escolheu Pedra')
                 resultado = possiveisResultados.vitoria;
             }
             break;
